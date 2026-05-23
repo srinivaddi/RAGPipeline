@@ -14,7 +14,10 @@ data/raw/**/*.pdf
 !data/processed/
 
 # vectorstore location
-VECTORSTORE_PATH = "./vectorstoredb"
+# vectorstore location
+vectorstoredb/**
+!vectorstoredb/
+echo "chroma.sqlite3" >> .gitignore
 
 # Distribution / packaging
 .Python
