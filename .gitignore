@@ -14,7 +14,6 @@ data/raw/**/*.pdf
 !data/processed/
 
 # vectorstore location
-# vectorstore location
 vectorstoredb/**
 !vectorstoredb/
 echo "chroma.sqlite3" >> .gitignore
